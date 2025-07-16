@@ -1,5 +1,5 @@
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzvpS-8YOkOEIfHTs8Xfn4N4_M-9OGQydOa03rLc7hQBcPdc6PcdDl6x8GvXE6qBB2c/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzQMpzTivBHt3KeBSlOBJo4WxgzbM_wmy0bv9lNR-a4D6i27-AUmDm-oFLKixee9dPk/exec';
 
 function toggleForm() {
   const form = document.getElementById('messageForm');
