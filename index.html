@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>김선배 총회장 후보 응원 메시지</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="https://lh3.google.com/u/0/d/1VNlMXyMGaAhhrhJdpHv8PQwQHlqFysXo=w2880-h1508-iv1?auditContext=forDisplay" alt="후보자 사진">
+      <h1>김선배</h1>
+      <p>성숙한 교단, 품격있는 총회 함께 만들어 갑시다</p>
+    </div>
+
+    <button id="toggleFormBtn" onclick="toggleForm()">응원 메시지 남기기</button>
+
+    <form id="messageForm" class="hidden" onsubmit="submitMessage(event)">
+      <input type="text" id="author" placeholder="이름" maxlength="20" required />
+      <input type="text" id="church" placeholder="교회명" maxlength="30" required />
+      <textarea id="text" placeholder="응원 메시지" maxlength="300" required></textarea>
+      <button type="submit">보내기</button>
+    </form>
+
+    <h2 style="text-align:center;">응원 메시지</h2>
+    <div id="messages"></div>
+  </div>
+
+  <footer>
+    <a href="https://sbkim.my.canva.site/">홈화면</a>
+    <a href="https://sbkim.my.canva.site/">김선배가 걸어온 길</a>
+    <a href="https://sbkim.my.canva.site/">선거공약</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
